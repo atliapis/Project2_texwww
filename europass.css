@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+input[type="radio"]:checked+label{
+	font-weight: bold;
+} 
+
+.innertable {
+	border-collapse:collapse;
+}
+
+#bold {font-weight:bold;}
+
+.first {text-align:right; border-right: 1px solid black;}
+
+#cell {text-align:right;}
+
+table {font-family:"Arial";}
+
+table {margin:15px;}
+
+#fotocv {
+	background-image: url("fotoCV.JPG");
+	background-repeat: no-repeat;
+	background-size: 164px 200px;
+	height: 200px;
+}
+
+#logo {
+	background-image: url("europasslogo.png");
+	background-repeat: no-repeat;
+	background-size: 87px 48px;
+	background-position:bottom right;
+	height: 48px;
+	position:relative;
+	left:1px;
+}
+
+#text:after {
+	content: "Βιογραφικό σημείωμα Europass";
+	font-weight:bold;	
+}
+
+#foot {
+	content: "<br>Για περισσότερες πληροφορίες σχετικά με το Europass, βλέπε <a href="http://europass.cedefop.europa.eu">http://europass.cedefop.europa.eu</a>
+<br>© Ευρωπαϊκή Ένωση, 2002-2010   24082010"

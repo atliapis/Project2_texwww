@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+input[type="radio"]:checked+label{
+	font-weight: bold;
+} 
+
+#resume:after {
+	content:"ΒΙΟΓΡΑΦΙΚΟ ΣΗΜΕΙΩΜΑ";
+	font-size: 36px;
+	height: 200px;
+}
+
+.innertable {
+	border-collapse:collapse;
+}
+
+#bold{
+	border-bottom:medium;
+}
+
+#outer {
+	max-width: 700px;
+	position:relative;
+	top: 30px;
+}

@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+
+input[type="radio"]:checked+label{
+	font-weight: bold;
+} 
+
+label, h2 {
+	font-color: white;
+	color: white;	
+}
+
+.first{
+	font-weight:bold;
+}
+
+.first:after {
+	content:":";
+}
+
+body {
+	background-image: url("dgrey031.gif");
+	margin:auto;
+	width:50%;
+	
+}
+
+table {
+	border-collapse:collapse;
+}
+
+#outer {
+	background-color: #FFF;
+	max-width: 700px;
+	position:relative;
+	top: 80px;
+}
+#outer:before {
+	
+}
+
+#logo {
+	background-image: url("fotoCV.JPG");
+	background-repeat: no-repeat;
+	background-size: 164px 200px;
+	background-position:center;
+	height: 200px;
+	min-width: 175 px;
+	filter: url(filters.svg#grayscale); /* Firefox 3.5+ */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(1); /* Google Chrome & Safari 6+ */
+}
+
+#resume {
+	background-image: url("RESUME.jpg");
+	background-repeat: no-repeat;
+	background-size: 205px 200px;
+	background-position:center;
+	
+}
